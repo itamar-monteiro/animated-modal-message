@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/07/18 17:13:50.000.233,=D:\Projetos Delphi\Unit1.pas</Transaction>
+    <Transaction>2026/07/18 17:14:09.000.646,=D:\Projetos Delphi\Modal Message\uStatusModal.pas</Transaction>
+    <Transaction>2026/07/18 17:39:55.000.783,D:\Projetos Delphi\Unit1.pas=D:\Projetos Delphi\Modal Message\uMain.pas</Transaction>
+    <Transaction>2026/07/18 17:39:55.000.783,D:\Projetos Delphi\Unit1.dfm=D:\Projetos Delphi\Modal Message\uMain.dfm</Transaction>
+    <Transaction>2026/07/18 17:40:16.000.752,D:\Projetos Delphi\Project1.dproj=D:\Projetos Delphi\Modal Message\DemoModalMessage.dproj</Transaction>
+    <Transaction>2026/07/22 19:55:40.000.000,D:\Projetos Delphi\Modal Message\uMain.dfm=D:\Projetos Delphi\Modal Message\Animated Modal\Demo\uMainForm.dfm</Transaction>
+    <Transaction>2026/07/22 19:55:40.000.000,D:\Projetos Delphi\Modal Message\uMain.pas=D:\Projetos Delphi\Modal Message\Animated Modal\Demo\uMainForm.pas</Transaction>
+    <Transaction>2026/07/22 19:56:05.000.653,D:\Projetos Delphi\Modal Message\DemoModalMessage.dproj=D:\Projetos Delphi\Modal Message\Animated Modal\Demo\AnimatedModalDemo.dproj</Transaction>
+    <Transaction>2026/07/22 19:59:36.000.442,D:\Projetos Delphi\Modal Message\uStatusModal.pas=D:\Projetos Delphi\Modal Message\Animated Modal\Sources\Vcl.AnimatedModal.pas</Transaction>
+    <Transaction>2026/07/22 19:59:47.000.065,=D:\Projetos Delphi\Modal Message\Animated Modal\Demo\Unit1.pas</Transaction>
+    <Transaction>2026/07/22 20:00:10.000.117,D:\Projetos Delphi\Modal Message\Animated Modal\Demo\Unit1.pas=D:\Projetos Delphi\Modal Message\Animated Modal\Sources\Vcl.AnimatedModal.StyledButton.pas</Transaction>
+    <Transaction>2026/07/22 20:12:50.000.416,=D:\Projetos Delphi\Modal Message\Animated Modal\Demo\Unit1.pas</Transaction>
+    <Transaction>2026/07/22 20:13:20.000.978,D:\Projetos Delphi\Modal Message\Animated Modal\Demo\Unit1.pas=D:\Projetos Delphi\Modal Message\Animated Modal\Sources\Vcl.AnimatedModal.Types.pas</Transaction>
+  </Transactions>
+</BorlandProject>
