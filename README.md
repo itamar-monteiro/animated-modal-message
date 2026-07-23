@@ -1,57 +1,48 @@
-````markdown
 # Animated Modal for Delphi VCL
 
-A modern, animated modal dialog component for **Delphi VCL** inspired by contemporary UI frameworks.
-
-The component displays beautiful modal messages with a smooth **Zoom-In + Bounce** animation while dimming the owner form, providing a clean and focused user experience.
-
----
+### A modern, animated modal dialog component for **Delphi VCL** inspired by contemporary UI Angular.
+###### The component displays beautiful modal messages with a smooth **Zoom-In + Bounce** animation while dimming the owner form, providing a clean and focused user experience.
 
 ## ✨ Features
+* 🎉 Modern animated modal dialogs
+* 🌑 Automatically darkens the owner form
+* 🚀 Smooth Zoom-In animation with Bounce effect
+* ✅ Four built-in modal types
+    * **Success**
+    * **Error**
+    * **Warning**
+    * **Question**
+* 🎨 Modern and clean design
+* ⚡ Lightweight and easy to use
+* 🔥 Simple API
+* 🖥 Works with Delphi VCL applications
 
-- 🎉 Modern animated modal dialogs
-- 🌑 Automatically darkens the owner form
-- 🚀 Smooth Zoom-In animation with Bounce effect
-- ✅ Four built-in modal types
-  - Success
-  - Error
-  - Warning
-  - Question
-- 🎨 Modern and clean design
-- ⚡ Lightweight and easy to use
-- 🔥 Simple API
-- 🖥 Works with Delphi VCL applications
 
----
 
 ## Modal Types
------------------------------------------------------------------------------------ 
-| Type        | Description                                                       |
-|-------------|-------------------------------------------------------------------|
-| `mkSuccess` | Displays a success message.                                       |
-| `mkError`   | Displays an error message.                                        |
-| `mkWarning` | Displays a warning message.                                       |
-| `mkQuestion`| Displays a confirmation dialog with **Yes** and **No** callbacks. |
+
+| Type          | Description                                                       |
+| ------------- |:-----------------------------------------------------------------:|
+| mkSuccess     | Displays a success message                                        |
+| mkError       | Displays an error message                                         |
+| mkWarning     | Displays a warning message                                        |
+| mkQuestion    | Displays a confirmation dialog with **Yes** and **No** callbacks  |
 
 ## Installation
-
 Simply add the component source folder to your Delphi Library Path or include it in your project.
 
 Then add the units below to your `uses` clause:
-
-```delphi
+```
 uses
   Vcl.AnimatedModal.Types,
   Vcl.AnimatedModal;
 ```
 
------------------------------------------------------------------------------------
+## Basic Usage
 
-# Basic Usage
+#### Success Message
 
-## Success Message
-
-```delphi
+```
 procedure TFMainForm.Button1Click(Sender: TObject);
 begin
   TAnimatedModal.Show(
@@ -65,9 +56,9 @@ end;
 
 ------------------------------------------------------------------------------------
 
-## Error Message
+#### Error Message
 
-```delphi
+```
 procedure TFMainForm.Button2Click(Sender: TObject);
 begin
   TAnimatedModal.Show(
@@ -81,9 +72,9 @@ end;
 
 ------------------------------------------------------------------------------------
 
-## Warning Message
+#### Warning Message
 
-```delphi
+```
 procedure TFMainForm.Button3Click(Sender: TObject);
 begin
   TAnimatedModal.Show(
@@ -97,11 +88,11 @@ end;
 
 -------------------------------------------------------------------------------------
 
-## Confirmation Dialog
+#### Confirmation Dialog
 
 The **Question** modal supports callback procedures for both confirmation and cancellation.
 
-```delphi
+```
 procedure TFMainForm.Button4Click(Sender: TObject);
 begin
   TAnimatedModal.Show(
@@ -124,7 +115,7 @@ end;
 
 --------------------------------------------------------------------------------------
 
-# Animation
+## Animation
 
 Every modal is displayed using a modern animation sequence:
 
@@ -135,7 +126,7 @@ Every modal is displayed using a modern animation sequence:
 The owner form is automatically dimmed while the modal is displayed, keeping the user's attention focused on the dialog.
 
 
-## Demo
+### Demo
 
 A complete demonstration project is available in the **Demo** folder.
 
@@ -148,7 +139,7 @@ The demo includes examples for:
 - Callback usage
 
 
-# Folder Structure
+### Folder Structure
 
 ```
 Source/
@@ -159,7 +150,6 @@ Demo/
     AnimatedModalDemo.dproj
 ```
 
-# Author
+## Author
 
 Itamar Monteiro. Developed with ❤️ using Delphi VCL.
-````
